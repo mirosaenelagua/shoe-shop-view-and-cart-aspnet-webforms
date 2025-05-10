@@ -10,7 +10,7 @@ Includes two core features: viewing products and adding them to a shopping cart.
 ## 🖼️ Screenshots
 
 ### 🛍️ Product Page
-![Product Page](images/43253443.png)
+![Product Page](assets/images/43253443.png)
 
 ### 🛒 Cart Page
 ![Cart Page](images/cart-page.png)
