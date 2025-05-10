@@ -8,10 +8,7 @@ Includes two core features: viewing products and adding them to a shopping cart.
 - 🧺 Add items to shopping cart
 
 ## 🖼️ Screenshots
-![Page Image](https://i.imgur.com/j3XOgiJ.png)
-
-### 🛍️ Product Page
-![Product Page](assets/images/others/43253443.png)
+![Page Image](https://i.imgur.com/j3XOgiJ.png)![Product Page](assets/images/others/43253443.png)
 
 ### 🛒 Cart Page
 ![Cart Page](images/cart-page.png)
