@@ -1,0 +1,72 @@
+﻿/* 
+=============
+BIẾN TOÀN CỤC 
+=============
+*/
+:root {
+    /* font chữ */
+    --inter: Inter;
+    /* màu sắc chung */
+    --bright-blue: #4183d9;
+    --mostly-black: #1b2124;
+    --light-grayish-blue: #ebf2f5;
+    --grayish-blue: #9caeb8;
+    --very-dark-gray: #3d3d3d;
+}
+
+
+
+/* hiển thị sản phẩm */
+.show-some .product-card {
+    border: 2px solid var(--grayish-blue);
+    border-radius: 0.5rem;
+    min-height: 450px;
+    cursor: pointer;
+}
+
+    .show-some .product-card .product-img {
+        width: 100%;
+    }
+
+        .show-some .product-card .product-img img {
+            width: 100%;
+            border-radius: 0.5rem 0.5rem 0 0;
+        }
+
+.product-card .product-name {
+    font-size: 1rem;
+    font-family: var(--inter);
+    font-weight: 600;
+    text-align: center;
+    padding: 0 1.1rem;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card .color-quantity {
+    font-family: var(--inter);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.price-box .p-price {
+    padding: 0 2rem 0 0.5rem;
+    font-family: var(--inter);
+    font-size: 1.15rem;
+    color: var(--bright-blue);
+    font-weight: 600;
+}
+
+.price-box .p-unprice {
+    padding: 0 1rem 0 0;
+    font-size: 0.9rem;
+    font-family: var(--inter);
+}
+/* Mục sắp xếp theo */
+.sort-by-price {
+    font-size: 1.2rem;
+    font-family: var(--inter);
+    color: var(--light-grayish-blue);
+}

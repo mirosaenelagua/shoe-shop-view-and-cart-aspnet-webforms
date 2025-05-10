@@ -1,0 +1,111 @@
+﻿:root {
+    /* font chữ */
+    --inter: Inter;
+    /* màu sắc chung */
+    --bright-blue: #4183d9;
+    --mostly-black: #1b2124;
+    --light-grayish-blue: #ebf2f5;
+    --grayish-blue: #9caeb8;
+    --very-dark-gray: #3d3d3d;
+}
+/* giới thiệu SIEUGIAYSNEAKERS */
+.about-us {
+    margin-top: 50px;
+}
+
+    .about-us .about-us-icon {
+        font-size: 4rem;
+        color: var(--very-dark-gray);
+    }
+
+.about-us-icon .bx {
+    background-color: var(--light-grayish-blue);
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.about-us .about-us-text h6 {
+    font-family: var(--inter);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--mostly-black);
+}
+
+.about-us .about-us-text p {
+    text-align: center;
+    font-size: 1rem;
+    font-family: var(--inter);
+    padding: 0 5rem 1rem 5rem;
+}
+/* hiển thị một số sản phẩm theo loại */
+.show-some-product img {
+    width: 100%;
+}
+/* hiển thị sản phẩm */
+.show-some .product-card {
+    border: 2px solid var(--grayish-blue);
+    border-radius: 0.5rem;
+    min-height: 450px;
+    cursor: pointer;
+}
+
+    .show-some .product-card .product-img {
+        width: 100%;
+    }
+
+        .show-some .product-card .product-img img {
+            width: 100%;
+            border-radius: 0.5rem 0.5rem 0 0;
+        }
+
+.product-card .product-name {
+    font-size: 1rem;
+    font-family: var(--inter);
+    font-weight: 600;
+    text-align: center;
+    padding: 0 1.1rem;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card .color-quantity {
+    font-family: var(--inter);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.price-box .p-price {
+    padding: 0 2rem 0 0.5rem;
+    font-family: var(--inter);
+    font-size: 1.15rem;
+    color: var(--bright-blue);
+    font-weight: 600;
+}
+
+.price-box .p-unprice {
+    padding: 0 1rem 0 0;
+    font-size: 0.9rem;
+    font-family: var(--inter);
+}
+/* NÚT XEM THÊM */
+.show-more-box {
+    padding: 2rem;
+}
+
+    .show-more-box .btn-show-more {
+        font-family: var(--inter);
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background-color: var(--light-grayish-blue);
+        border: none;
+        outline: none;
+        font-weight: 600;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .show-more-box .btn-show-more:hover {
+            background-color: var(--bright-blue);
+            color: white;
+        }

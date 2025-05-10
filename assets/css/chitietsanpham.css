@@ -1,0 +1,190 @@
+﻿:root {
+    /* font chữ */
+    --inter: Inter;
+    /* màu sắc chung */
+    --bright-blue: #4183d9;
+    --mostly-black: #1b2124;
+    --light-grayish-blue: #ebf2f5;
+    --grayish-blue: #9caeb8;
+    --very-dark-gray: #3d3d3d;
+}
+/* CHI TIẾT SẢN PHẨM */
+
+.product-info .product-name {
+    display: block;
+    padding: 0 2rem 0 0;
+    font-size: 1.8rem;
+    font-family: var(--inter);
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.product-info .product-price {
+    display: inline-block;
+    padding: 0.6rem 0 0 0;
+    font-size: 1.8rem;
+    font-family: var(--inter);
+    font-weight: 600;
+    color: var(--bright-blue);
+}
+
+.product-info .product-unprice {
+    padding: 0 0 0 2rem;
+    font-size: 1.6rem;
+    font-family: var(--inter);
+    color: var(--very-dark-gray);
+}
+
+.return-reputable-shipping {
+    padding: 1rem 0 0 0;
+    display: flex;
+}
+
+    .return-reputable-shipping .info {
+        display: flex;
+        align-items: center;
+    }
+
+        .return-reputable-shipping .info .img-icon {
+            width: 30px;
+        }
+
+        .return-reputable-shipping .info .info-text {
+            padding: 0 0 0 0.3rem;
+            font-size: 1rem;
+        }
+
+.img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; /* Thêm khoảng cách giữa hình ảnh con và hình ảnh chính */
+}
+
+    .img-box .img-sub {
+        padding: 0 1rem 0;
+        width: 200px;
+    }
+
+        .img-box .img-sub .sub-img {
+            width: 100%;
+            border: 2px solid transparent; /* Đảm bảo không có viền ban đầu */
+            transition: all 0.3s ease; /* Thêm hiệu ứng chuyển động mượt mà */
+        }
+
+            .img-box .img-sub .sub-img:hover {
+                border: 2px solid var(--bright-blue); /* Thêm viền khi hover */
+                transform: scale(1.05); /* Phóng to một chút khi hover */
+            }
+
+    .img-box .img-main {
+        width: 500px;
+        overflow: hidden; /* Đảm bảo hình ảnh không bị tràn ra ngoài */
+        border-radius: 8px; /* Bo góc cho hình ảnh chính */
+    }
+
+        .img-box .img-main .main-img {
+            width: 100%;
+            transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động mượt mà */
+        }
+
+    .img-box .img-sub .sub-img + .sub-img {
+        margin-top: 20px;
+    }
+
+    .img-box .img-main:hover .main-img {
+        transform: scale(1.05); /* Phóng to hình ảnh chính khi hover */
+    }
+
+
+/* màu sản phẩm */
+.color-list .title {
+    font-family: var(--inter);
+    padding: 1rem 0 0.4rem 0;
+}
+
+.color-list .list-box {
+    display: flex; /* Hiển thị các ảnh theo chiều ngang */
+    flex-wrap: wrap; /* Cho phép các ảnh xuống dòng khi không đủ chỗ */
+    gap: 0.8rem; /* Khoảng cách giữa các ảnh */
+}
+
+    .color-list .list-box a {
+        text-decoration: none; /* Không có gạch chân */
+    }
+
+    /* Đảm bảo mỗi ảnh có kích thước hợp lý */
+    .color-list .list-box .color-img {
+        border-radius: 0.5rem; /* Bo tròn góc ảnh */
+        width: 80px; /* Đặt chiều rộng cố định cho ảnh */
+        height: 80px; /* Đặt chiều cao cố định cho ảnh */
+        object-fit: cover; /* Cắt ảnh sao cho vừa với khung mà không bị méo */
+    }
+
+/* Tùy chỉnh chiều rộng của các ảnh nhỏ hơn khi có nhiều ảnh */
+@media (max-width: 768px) {
+    .color-list .list-box .color-img {
+        width: 50px;
+        height: 50px;
+    }
+}
+/* Size giày */
+.size-box {
+    padding: 2rem 0 0 0;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: var(--inter);
+}
+/* Số lượng */
+.quantity-box {
+    padding: 2rem 0 0 0;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: var(--inter);
+}
+.quantity-select {
+    padding: 0.2rem;
+    border: 2px solid var(--very-dark-gray);
+    border-radius: 0.4rem;
+}
+/* Nút thêm vào giỏ hàng & Mua hàng */
+.btn-add-to-cart {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-family: var(--inter);
+    border: 2px solid var(--bright-blue);
+    border-radius: 0.3rem;
+    outline: none;
+    background-color: #4183d932;
+    color: var(--bright-blue);
+}
+.bx-cart-add {
+    font-size: 1.4rem;
+    margin-right: 0.2rem;
+}
+.btn-add-to-cart:hover {
+    background-color: #4183d916;
+}
+.btn-buy {
+    border-radius: 0.3rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border: 2px solid var(--bright-blue);
+    outline: none;
+    background-color: var(--bright-blue);
+    font-size: 1.2rem;
+    font-family: var(--inter);
+    color: var(--light-grayish-blue);
+}
+    .btn-buy:hover {
+        background-color: #2672d6;
+        border: 2px solid #2672d6;
+    }
+
+.btn-add-to-cart,
+.btn-buy {
+    text-decoration: none; 
+    display: inline-flex; 
+   
+}
