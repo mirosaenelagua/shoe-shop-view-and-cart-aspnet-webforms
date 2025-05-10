@@ -8,13 +8,11 @@ Includes two core features: viewing products and adding them to a shopping cart.
 - 🧺 Add items to shopping cart
 
 ## 🖼️ Screenshots
-![Page Image](https://i.imgur.com/j3XOgiJ.png)![Product Page](assets/images/others/43253443.png)
-
-### 🛒 Cart Page
-![Cart Page](images/cart-page.png)
+![Page Image](https://i.imgur.com/j3XOgiJ.png)
+![Product Page](https://i.imgur.com/NIqhyRu.png))
+![Product Detail](https://i.imgur.com/Xsu7Vuj.png)
 
 ## 🛠️ Tech Stack
-
 - ASP.NET WebForms
 - HTML/CSS
 - C#
