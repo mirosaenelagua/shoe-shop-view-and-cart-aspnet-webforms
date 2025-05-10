@@ -1,20 +1,19 @@
 # ASP.NET WebForms Shoe Store 🥿👟
 
-A simple online shoe store built with ASP.NET WebForms.  
-It allows users to browse products and add items to their shopping cart.
+A minimal online shoe store built with ASP.NET WebForms.  
+Includes two core features: viewing products and adding them to a shopping cart.
 
 ## 🚀 Features
 
-- View list of shoes (product browsing)
-- Add items to cart
-- ASP.NET WebForms based frontend/backend
+- 🧾 View product listings
+- 🧺 Add items to shopping cart
 
 ## 🖼️ Screenshots
 
-### 🛍️ Product Listing
+### 🛍️ Product Page
 ![Product Page](images/product-page.png)
 
-### 🧺 Shopping Cart
+### 🛒 Cart Page
 ![Cart Page](images/cart-page.png)
 
 ## 🛠️ Tech Stack
