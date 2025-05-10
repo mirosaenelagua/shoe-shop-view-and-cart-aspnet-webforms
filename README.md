@@ -9,6 +9,7 @@ Includes two core features: viewing products and adding them to a shopping cart.
 
 ## 🖼️ Screenshots
 ![Page Image](https://i.imgur.com/j3XOgiJ.png)
+
 ### 🛍️ Product Page
 ![Product Page](assets/images/others/43253443.png)
 
@@ -20,4 +21,3 @@ Includes two core features: viewing products and adding them to a shopping cart.
 - ASP.NET WebForms
 - HTML/CSS
 - C#
-
